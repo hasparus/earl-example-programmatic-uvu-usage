@@ -1,0 +1,19 @@
+{
+  "name": "programmatic-tests",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "node make-bundle.js",
+    "test": "node out.js",
+    "start": "pnpm bundle && pnpm test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "earljs": "^0.1.12",
+    "esbuild": "^0.14.8",
+    "uvu": "^0.5.2"
+  }
+}
